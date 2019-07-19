@@ -1,0 +1,101 @@
+
+
+
+
+.row div{
+	background-color:gray;
+  margin-bottom:20px;
+  padding:30px;
+}
+
+
+
+#nav-header{
+	border-radius:0;
+	
+	background-color:gray;
+	border:2px solid black;
+	
+}
+
+.navbar-header .navbar-brand p{
+	color:black;
+	font-style: :bold;
+}
+
+.navbar-header .navbar-brand{
+  border:0;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    
+    border:2px solid black;
+
+}
+
+.navbar-default .navbar-toggle {
+      outline-width:1px;
+      outline-color:black;
+      outline-style:solid;
+      
+}
+
+#btn{
+	background-color:gray;
+	border-color:gray;
+}
+
+#collapsable-nav{
+	
+   border:0;
+
+}
+
+
+
+
+.row{
+  margin-right:15px;
+  margin-left:15px;
+}
+
+.navbar-toggle:focus .icon-bar {
+    	border-color:white; 
+
+    }
+
+    .collapse .navbar-collapse{
+       border-color:white;
+
+       
+    }
+
+    .navbar-default .navbar-toggle:focus {
+        outline-width:1px;
+      outline-color:white;
+      outline-style:solid;
+      border:2px solid orange;
+      
+      }
+
+      
+
+      .navbar-default .navbar-collapse ul{
+      padding-top:5px;
+      padding-bottom:5px;
+      margin-bottom:-7.5px;
+      margin-top:-7.5px;
+      background-color:#ffffcc;
+      }
+
+      .navbar-default .navbar-collapse ul li{
+       border:1px solid black;
+      }
+
+      .navbar-default .navbar-collapse{
+       border-top:2px solid black;
+      }
+
+
+   
