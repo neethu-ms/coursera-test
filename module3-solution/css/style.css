@@ -46,12 +46,16 @@
 	border-color:gray;
 }
 
-#collapsable-nav{
-	
-   border:0;
 
-}
 
+
+
+  #collapsable-nav span{
+
+     font-size:1.2em;
+
+
+  }
 
 
 
@@ -68,34 +72,41 @@
     .collapse .navbar-collapse{
        border-color:white;
 
-       
+       overflow:hidden;
     }
 
     .navbar-default .navbar-toggle:focus {
         outline-width:1px;
       outline-color:white;
       outline-style:solid;
-      border:2px solid orange;
+      
       
       }
 
       
-
-      .navbar-default .navbar-collapse ul{
-      padding-top:5px;
-      padding-bottom:5px;
-      margin-bottom:-7.5px;
-      margin-top:-7.5px;
-      background-color:#ffffcc;
-      }
-
-      .navbar-default .navbar-collapse ul li{
-       border:1px solid black;
-      }
-
-      .navbar-default .navbar-collapse{
+     .navbar-default .navbar-collapse{
        border-top:2px solid black;
       }
 
+      .navbar-default .navbar-collapse ul{
+     
+     margin-top:0;
+     margin-bottom:0;
+      background-color:#ffffcc;
+      border-top:1px solid black;
+
+      }
+
+      .navbar-default .navbar-collapse ul li{
+        padding:5px;
+
+       border:1px solid black;
+       border-top:1px solid black;
+      }
+
+      
+
+    
 
    
+
